@@ -21,4 +21,5 @@ else:
         cenabiletu = 10
     else:   
         cenabiletu = 0
-    print("Cena biletu wynosi:", cenabiletu)
+    if cenabiletu is not None:
+        print("Cena biletu wynosi:", cenabiletu)
