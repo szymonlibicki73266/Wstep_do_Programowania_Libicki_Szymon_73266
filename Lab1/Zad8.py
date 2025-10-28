@@ -1,5 +1,5 @@
 try:
-    wiek = int(input("Podaj swoj wiek: ").strip())
+    wiek = int(input("Podaj swoj wiek: "))
 except ValueError:
     print("To nie jest wiek")
 else:
